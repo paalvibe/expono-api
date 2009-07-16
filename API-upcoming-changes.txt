@@ -1,0 +1,6 @@
+Upcoming changes for the Expono API
+-----------------------------------
+Below are the upcoming changes to the API we are planning to release
+that may affect current applications. 
+This is used to inform you of the change on forehand so you are prepared
+for changes you may need to do your application. 
