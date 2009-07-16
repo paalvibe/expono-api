@@ -1,2 +1,15 @@
 Expono API Changelog
 
+2009-07-17 version 4001
+We have added a extra permission 'delete' when registering for an API key.
+This is used by the new expono.photos.delete method.
+
+New methods
+ - expono.photos.delete http://docs.google.com/View?docid=dg3z7jnb_35vks3d4fg
+ - Replacing Photos http://docs.google.com/View?docid=dg3z7jnb_347rqcp9gg
+
+Changes in existing methods
+expono.photosets.create http://docs.google.com/View?docid=dg3z7jnb_8cp9s2mf3
+ - Added optional privacy parameters is_friend, is_public, is_family
+   If none if these parameters are supplied the user default privacy setting for albums is used instead.
+    
