@@ -1,5 +1,10 @@
 Expono API Changelog
 
+2009-08-25 version 4140
+Added 2 more error codes API upload can return
+14: User exceeded bandwidth limit - The calling user has reached their monthly bandwidth limit.
+15: User exceeded storage limit - The calling user has reached their storage limit.    
+
 2009-07-17 version 4001
 We have added a extra permission 'delete' when registering for an API key.
 This is used by the new expono.photos.delete method.
