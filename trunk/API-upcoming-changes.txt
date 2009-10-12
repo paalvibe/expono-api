@@ -4,3 +4,10 @@ Below are the upcoming changes to the API we are planning to release
 that may affect current applications. 
 This is used to inform you of the change on forehand so you are prepared
 for changes you may need to do your application. 
+
+Upcoming update @ Date (TBA)
+ - JSON format added as optional response format.
+ - Empty fields e.g description wont return a whitespace character anymore
+ - expono.photos.getInfo, comment count is now shown even when 0
+ - expono.people.getUploadStatus, no more negative values for storage/bandwith remaining (999999999 is used for people with unlimited)
+More info about the JSON format can be found at http://docs.google.com/View?id=dg3z7jnb_38f84x7vd7
