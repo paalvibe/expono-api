@@ -6,6 +6,10 @@ This is used to inform you of the change on forehand so you are prepared
 for changes you may need to do your application. 
 
 Upcoming update @ Date (TBA)
+ - Fixed error that wouldn't validate OAuth requests that used Authorization header for oauth parameters.
+ - oauth_callback to custom URL schemes will now work, useful for e.g iPhone Apps.  
+
+Upcoming update @ Date (TBA)
  - JSON format added as optional response format.
  - Empty fields e.g description wont return a whitespace character anymore
  - expono.photos.getInfo, comment count is now shown even when 0
