@@ -6,6 +6,10 @@ This is used to inform you of the change on forehand so you are prepared
 for changes you may need to do your application. 
 
 Upcoming update @ Date (TBA)
+ - expono.photosets.create
+   If no privacy parameter was supplied we used the user default album privacy was used, but it will now be private. We will introduce a new parameter in future update for this e.g "use_default" that will be used for uploads aswell. 
+
+Upcoming update @ Date (TBA)
  - Fixed error that wouldn't validate OAuth requests that used Authorization header for oauth parameters.
  - oauth_callback to custom URL schemes will now work, useful for e.g iPhone Apps.  
 
