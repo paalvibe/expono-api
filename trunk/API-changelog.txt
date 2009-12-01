@@ -1,5 +1,16 @@
 Expono API Changelog
 
+2009-12-01 version 4361
+ - expono.photosets.create
+   If no privacy parameter was supplied we used the user default album privacy was used, but it will now be private. We will introduce a new parameter in future update for this e.g "use_default" that will be used for uploads aswell.
+ - Fixed error that wouldn't validate OAuth requests that used Authorization header for oauth parameters.
+ - oauth_callback to custom URL schemes will now work, useful for e.g iPhone Apps.
+ - JSON format added as optional response format.
+ - Empty fields e.g description wont return a whitespace character anymore
+ - expono.photos.getInfo, comment count is now shown even when 0
+ - expono.people.getUploadStatus, no more negative values for storage/bandwith remaining (999999999 is used for people with unlimited)
+More info about the JSON format can be found at http://docs.google.com/View?id=dg3z7jnb_38f84x7vd7
+
 2009-08-25 version 4140
 Added 2 more error codes API upload can return
 14: User exceeded bandwidth limit - The calling user has reached their monthly bandwidth limit.
